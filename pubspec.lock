@@ -75,6 +75,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_windowmanager:
+    dependency: "direct main"
+    description:
+      name: flutter_windowmanager
+      sha256: b4d0bc06f6777952b729c0cdb7ce9ad1ecabd8b8b1cb0acb57a36621457dab1b
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.0"
   js:
     dependency: transitive
     description:
@@ -83,6 +91,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.5"
+  keep_screen_on:
+    dependency: "direct main"
+    description:
+      name: keep_screen_on
+      sha256: "66e484936decb976e88b95551de9290550c5fcec744dbfa48093ad3909a40432"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.0"
+  keep_screen_on_platform_interface:
+    dependency: transitive
+    description:
+      name: keep_screen_on_platform_interface
+      sha256: b56558be746f0bb136b13138d94de278c06bfffb33923adf148cc8a4b06e886e
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.0+1"
   lints:
     dependency: transitive
     description:
@@ -123,6 +147,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.2"
+  plugin_platform_interface:
+    dependency: transitive
+    description:
+      name: plugin_platform_interface
+      sha256: "6a2128648c854906c53fa8e33986fc0247a1116122f9534dd20e3ab9e16a32bc"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.4"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -186,3 +218,4 @@ packages:
     version: "2.1.4"
 sdks:
   dart: ">=2.19.6 <3.0.0"
+  flutter: ">=1.12.13+hotfix.4"
